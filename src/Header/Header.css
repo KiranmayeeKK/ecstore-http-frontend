@@ -1,0 +1,65 @@
+.header{
+    background-color: #454b4b;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+
+.header__ECSIcon{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.header__search{
+    display: flex;
+    flex: 1;
+}  
+
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd904d;
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__link{
+    color: white;
+    text-decoration: none;
+}
+
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+}
+
+.header__optionBasket a{
+    cursor: pointer;
+}
+
+.header__optionBasket a:hover{
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.header__productCount{
+    margin-right: 10px;
+}

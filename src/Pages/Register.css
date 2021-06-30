@@ -1,0 +1,51 @@
+.register{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__container{
+    width: px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid rgb(112, 110, 110);
+}
+
+.register__ECSIcon{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.register__registerButton{
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 2px;
+    color: #111;
+    border-color: #111;
+}
+
+.register__container p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.register__container > h1{
+    margin-bottom: 10px;
+}
+.register__container > form > h5{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.register__container >form > input{
+    height: 30px;
+    width: 98%;
+}

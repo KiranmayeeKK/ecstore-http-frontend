@@ -1,0 +1,22 @@
+.subtotal_credentialFields{
+    margin-left:5px;
+    margin-top:5px;
+}
+
+.errorMessage{
+    margin-left:5px;
+    margin-top:10px;
+    color:red;
+    font-size: 12px;
+}
+.successText{
+    margin-left:5px;
+    margin-top:10px;
+    color:rgb(113, 156, 113);
+    font-size: 14px;
+}
+.proceedButton{
+    margin-left:5px;
+    margin-top:10px;
+    
+}
