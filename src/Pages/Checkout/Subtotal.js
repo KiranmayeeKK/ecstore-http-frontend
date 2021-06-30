@@ -54,9 +54,11 @@ function Subtotal(){
                 'Content-Type': 'application/json',
               }
              let formData = JSON.parse(fileObj);
-            console.log(formData);
+          //  console.log(formData);
           // Read the server url from .env file
         const server_url = process.env.REACT_APP_SERVER_URL;
+        console.log(server_url);
+        console.log(formData);
         axios.post(server_url, formData, { headers : headers
            // receive two  parameters - endpoint url ,form data and optional headers 
        })
