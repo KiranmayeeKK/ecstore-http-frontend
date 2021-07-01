@@ -3,3 +3,19 @@
     width: 98%;
     margin-left:10px;
 }
+
+/* Split the screen in half */
+.checkout {
+    display:flex;
+    flex-direction: row;
+  }
+  
+  /* Control the left side */
+  .checkout__left {
+    width:50%;
+  }
+  
+  /* Control the right side */
+  .checkout__right {
+    width:50%
+  }

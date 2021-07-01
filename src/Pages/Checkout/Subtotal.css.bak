@@ -1,6 +1,6 @@
 .subtotal_credentialFields{
     margin-left:5px;
-    margin-top:15px;
+    margin-top:5px;
 }
 
 .errorMessage{
@@ -19,10 +19,4 @@
     margin-left:5px;
     margin-top:10px;
     
-}
-.checkout_displaytext{
-    margin-left:5px;
-    margin-top:10px;
-    color:rgb(240, 54, 54);
-    font-size: 14px;
 }

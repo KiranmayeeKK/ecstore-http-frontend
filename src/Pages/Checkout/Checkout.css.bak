@@ -1,0 +1,5 @@
+.shoppingbaskettitle{
+    display:flex;
+    width: 98%;
+    margin-left:10px;
+}

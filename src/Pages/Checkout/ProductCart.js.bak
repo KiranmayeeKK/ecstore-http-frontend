@@ -30,7 +30,7 @@ function ProductCart({id,title,image,price,rating,hasAgeLimit}){
             {
                hasAgeLimit=="true"&& !isVerified &&
                <div>
-               <p className="productcart__agelimit_text">*This item is available only for customers with 18+ age</p>
+               <p className="productcart__agelimit_text">*This item is available only for customers with 18+ age, please provide identity</p>
                </div>
             }
             </div>
