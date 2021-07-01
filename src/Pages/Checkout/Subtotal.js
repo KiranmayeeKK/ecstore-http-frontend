@@ -67,11 +67,16 @@ function Subtotal(){
         /* If response from the server is vaalid, 
         then the isVerified state variable is set to true and correspondingly the page elements are rendered
       */
-        res.data == "valid" && 
+        res.data == "valid" ?
         dispatch({
             type: 'SET_IS_VERIFIED',
             value: true
         }        )
+        : 
+        dispatch({
+          type: 'SET_ERROR_MESSAGE',
+          value: res.data
+      }        )
       //  return  <Redirect to="/payment" />;  
       })
       .catch(error => {
@@ -79,10 +84,7 @@ function Subtotal(){
              then the setErrorMessage is set and correspondingly the page elements are rendered
       */
         console.log("error response from ssi server" + error.response);
-        dispatch({
-          type: 'SET_ERROR_MESSAGE',
-          value: error.response.data
-      }        )
+       
     });
      }
 
